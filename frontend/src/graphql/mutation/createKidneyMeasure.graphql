@@ -1,0 +1,9 @@
+mutation CreateKidneyMeasure($input: KidneyMeasureInput!) {
+  createKidneyMeasure(input: $input) {
+    id
+    eGFR
+    atDate
+    createdAt
+    updatedAt
+  }
+}

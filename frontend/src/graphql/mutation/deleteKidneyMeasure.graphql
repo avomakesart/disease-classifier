@@ -1,0 +1,3 @@
+mutation DeleteKidneyMeasure($id: Int!) {
+  deleteKidneyMeasure(id: $id)
+}

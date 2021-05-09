@@ -1,0 +1,10 @@
+mutation CreateBloodPressure($input: BloodPressureInput!) {
+  createBloodPressure(input: $input) {
+    id
+    sysBp
+    diaBp
+    atDate
+    createdAt
+    updatedAt
+  }
+}

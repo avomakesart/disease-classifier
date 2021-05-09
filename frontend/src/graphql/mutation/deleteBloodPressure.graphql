@@ -1,0 +1,3 @@
+mutation DeleteBloodPressure($id: Int!) {
+  deleteBloodPressure(id: $id)
+}

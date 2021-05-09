@@ -1,0 +1,12 @@
+query KidneyMeasures($limit: Int!, $cursor: String) {
+  kidneyMeasures(limit: $limit, cursor: $cursor) {
+    hasMore
+    kidneyMeasure {
+      id
+      eGFR
+      atDate
+      createdAt
+      updatedAt
+    }
+  }
+}

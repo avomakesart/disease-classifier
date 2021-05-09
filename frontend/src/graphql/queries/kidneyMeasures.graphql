@@ -1,0 +1,13 @@
+query BloodPressures($limit: Int!, $cursor: String) {
+  bloodPressures(limit: $limit, cursor: $cursor) {
+    hasMore
+    bloodPressure {
+      id
+      sysBp
+      diaBp
+      atDate
+      createdAt
+      updatedAt
+    }
+  }
+}

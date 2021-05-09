@@ -1,0 +1,10 @@
+query BloodPreassure($id: Int!) {
+  bloodPressure(id: $id) {
+    id
+    sysBp
+    diaBp
+    atDate
+    createdAt
+    updatedAt
+  }
+}

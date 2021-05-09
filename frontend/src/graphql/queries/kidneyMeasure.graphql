@@ -1,0 +1,9 @@
+query KidneyMeasure($id: Int!) {
+  kidneyMeasure(id: $id) {
+    id
+    eGFR
+    atDate
+    createdAt
+    updatedAt
+  }
+}
